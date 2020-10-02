@@ -40,6 +40,11 @@ Download latest version of chromedriver
 https://chromedriver.chromium.org/downloads
 ```
 
+Creating cache directory (this value should be set in gp-gsuite.conf)
+```
+mkdir ~/.azimo.gp
+```
+
 ## Configuration
 
 Please edit file `gp-gsuite.conf` and change settings:
