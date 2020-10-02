@@ -1,4 +1,0 @@
-selenium==3.141.0
-lxml
-requests
-bs4
