@@ -7,11 +7,19 @@ This project allow Linux machines connect to VPN using openconnect.
 ## Required
 - python3
 - openconnect
+- chromedriver
 
-### Fedora 29
+### Fedora 32
+
+Please do not use higher version of openconnect then 8.05
+Add this line into the file /etc/dnf/dnf.conf
+```
+excludepkgs=openconnect-8.10
+```
+Now you can install openconnect
 
 ```
-sudo dnf install openconnect-8.02-2.fc29.x86_64
+sudo dnf install openconnect
 ```
 
 ### DebilUntu
@@ -25,6 +33,11 @@ apt-get install openconnect
 First we have to install all dependence in Python3
 ```
 pip3 install --user -r requirements.txt
+```
+
+Download latest version of chromedriver 
+```
+https://chromedriver.chromium.org/downloads
 ```
 
 ## Configuration
