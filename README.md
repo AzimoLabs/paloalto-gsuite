@@ -1,8 +1,8 @@
-# GlobalProtect for Linux
+# GlobalProtect for Linux (SAML authentication)
 
 ## Description
 
-This project allow Linux machines connect to VPN using openconnect.
+This project allow Linux machines connect to VPN using openconnect with SAML authentication from G Suite.
 
 ## Required
 - python3
